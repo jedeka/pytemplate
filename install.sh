@@ -26,3 +26,6 @@ pip install -r requirements.txt --no-cache-dir
 pip uninstall torch torchvision torchaudio -y 
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 
+
+# install current project as editables
+pip install -e . --no-cache-dir
