@@ -1,0 +1,35 @@
+# pys
+__pycache__/
+*.py[codz]
+*$py.class
+*.egg*
+
+# dist
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# custom
+## testing scripts
+*a_*
+*0_*
+~   
+*logs/*
+*wandb*
+.DS_Store
+
+!scripts/*.pkl

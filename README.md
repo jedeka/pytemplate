@@ -1,2 +1,1 @@
-# simplementation
-simple implementations of any particular topic of interest
+# personal machine learning project template
