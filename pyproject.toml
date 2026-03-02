@@ -1,0 +1,42 @@
+[project]
+name = "project"
+dynamic = ["version"]
+description = "Project repo"
+readme = "README.md"
+requires-python = ">=3.10"
+
+##########
+# EXAMPLES
+##########
+
+# dependencies = [
+#     "safetensors>=0.4.5",
+#     "torch",
+#     "tyro>=0.9.0",
+#     "wandb>=0.19.0"
+# ]
+
+# [project.urls]
+# Homepage = "https://github.com/facebookresearch/metamotivo"
+
+# [project.optional-dependencies]
+# humenv=[
+#     "humenv[bench] @ git+https://github.com/facebookresearch/humenv.git",
+# ]
+# huggingface = [
+#     "huggingface-hub[cli,torch]>=0.26.3",
+# ]
+# all = [
+#     "huggingface-hub[cli,torch]>=0.26.3",
+#     "humenv[bench] @ git+https://github.com/facebookresearch/humenv.git",
+#     "tensordict>=0.6.0"
+# ]
+
+# [tool.setuptools.dynamic]
+# version = {attr = "vlafb.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["project*"]
+
+[tool.ruff]
+line-length = 140
