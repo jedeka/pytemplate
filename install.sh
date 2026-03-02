@@ -3,7 +3,7 @@
 #########
 # conda
 #########
-conda install ffmpeg=7.1.1 -c conda-forge -y
+# conda install ffmpeg=7.1.1 -c conda-forge -y
 conda install conda-forge::nvitop -y
 
 #########
@@ -23,9 +23,9 @@ pip install -r requirements.txt --no-cache-dir
 #########
 
 # RTX 5090 (cuda 12.8) compatibility 
-pip uninstall torch torchvision torchaudio -y 
-pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+# pip uninstall torch torchvision torchaudio -y 
+# pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 
 
-# install current project as editables
+# install current module 
 pip install -e . --no-cache-dir
