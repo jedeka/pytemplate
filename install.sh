@@ -29,3 +29,4 @@ pip install -r requirements.txt --no-cache-dir
 
 # install current module 
 pip install -e . --no-cache-dir
+

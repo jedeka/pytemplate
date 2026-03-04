@@ -17,12 +17,9 @@ requires-python = ">=3.10"
 # ]
 
 # [project.urls]
-# Homepage = "https://github.com/facebookresearch/metamotivo"
+# Homepage = "https://website.com"
 
 # [project.optional-dependencies]
-# humenv=[
-#     "humenv[bench] @ git+https://github.com/facebookresearch/humenv.git",
-# ]
 # huggingface = [
 #     "huggingface-hub[cli,torch]>=0.26.3",
 # ]
